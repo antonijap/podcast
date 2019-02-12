@@ -1,1 +1,17 @@
-I am index
+{{ define "main" }}
+
+<div class="container">
+  {{ range .Pages }}
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{ .Title }}</h5>
+      <p class="card-text">{{ .Params.summary }}</p>
+      <audio id="player" controls>
+        <source src="{{ .Params.mp3 }}" type="audio/mp3">
+        <source src="{{ .Params.ogg }}" type="audio/ogg">
+      </audio>
+  </div>
+  {{ end }}
+</div>
+
+{{ end }}
