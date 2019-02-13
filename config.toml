@@ -5,5 +5,13 @@ theme = "podcast"
 publishDir = "docs"
 paginate = 1
 
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+  author = "Antonija Pek"
+  mp3 = ""
+  ogg = ""
+
 [permalinks]
   podcasts = "/:title/"
