@@ -1,16 +1,33 @@
 {{ define "main" }}
 
 <div class="container">
-  {{ range .Pages }}
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">{{ .Title }}</h5>
-      <p class="card-text">{{ .Params.summary }}</p>
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "podcasts") }}
+  {{ range $paginator.Pages }}
+  <div class="row">
+    <div class="col col-sm-12">
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Content }}</p>
+      <!-- <button type="button" class="btn btn-primary">Play Episode</button> -->
       <audio id="player" controls>
         <source src="{{ .Params.mp3 }}" type="audio/mp3">
         <source src="{{ .Params.ogg }}" type="audio/ogg">
       </audio>
+    </div>
   </div>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      {{ if $paginator.HasPrev }}
+      <li class="page-item"><a class="page-link" href="{{ $paginator.Prev.URL }}">Previous</a></li>
+      {{ end }}
+      {{ range $paginator.Pagers }}
+      <li class="page-item"><a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+      {{ end }}
+      {{ if $paginator.HasNext }}
+      <li class="page-item"><a class="page-link" href="{{ $paginator.Next.URL }}">Next</a></li>
+      {{ end }}
+
+    </ul>
+  </nav>
   {{ end }}
 </div>
 

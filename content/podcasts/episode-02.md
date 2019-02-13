@@ -10,4 +10,4 @@ author: Antonija Pek
 duration: 600
 tags: ['design', 'freelancing']
 ---
-This is a second episode
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
