@@ -7,5 +7,6 @@ ogg: https://dl.dropboxusercontent.com/s/xxsdlezky684vgd/episode_2.ogg
 image: episode-02.jpeg
 author: Antonija Pek
 duration: 600
+episode: 2
 ---
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

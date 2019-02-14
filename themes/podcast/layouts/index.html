@@ -6,14 +6,19 @@
   <div class="row">
     <div class="col col-sm-12">
       <h1>{{ .Title }}</h1>
+      <div class="meta">
+        <span>Duration {{ .Params.Duration }}</span>
+        <span>Episode {{ .Params.Episode }}</span>
+      </div>
       <p>{{ .Content }}</p>
-      <!-- <button type="button" class="btn btn-primary">Play Episode</button> -->
       <audio id="player" controls>
         <source src="{{ .Params.mp3 }}" type="audio/mp3">
         <source src="{{ .Params.ogg }}" type="audio/ogg">
       </audio>
     </div>
   </div>
+  {{ end }}
+
   <nav aria-label="Page navigation example">
     <ul class="pagination">
       {{ if $paginator.HasPrev }}
@@ -28,7 +33,6 @@
 
     </ul>
   </nav>
-  {{ end }}
 </div>
 
 {{ end }}

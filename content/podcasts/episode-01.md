@@ -7,5 +7,6 @@ ogg: https://dl.dropboxusercontent/s/oyicyxppjjs7w1w/episode_1.ogg
 image: episode-01.jpeg
 author: Antonija Pek
 duration: 600
+episode: 1
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
