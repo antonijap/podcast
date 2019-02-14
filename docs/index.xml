@@ -13,7 +13,7 @@
     <atom:link href="https://example.org//index.xml" rel="self" type="application/rss+xml" />
     <link>https://example.org/</link>
     <description>Recent content in My New Hugo Site on My New Hugo Site</description>
-    <lastBuildDate>0001-01-01 00:00:00 &#43;0000 UTC</lastBuildDate>
+    <lastBuildDate>2019-02-13 13:33:03 &#43;0200 EET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -32,6 +32,60 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="http://drops.albush.com/RAX%20CLOUD%20OFFICE%20HANGOUT%20FINAL.png" />
+    
+    <item>
+        <link>https://example.org/building-a-creative-business-with-blair-enns/</link>
+        <title>Building a Creative Business with Blair Enns</title>
+        <pubDate>Wed, 13 Feb 2019 13:33:03 +0200</pubDate>
+        <description><p>This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.</p>
+</description>
+
+        <enclosure url="/podcasts/episode-03.mp3" length="" type="audio/mpeg" />
+        <guid>/podcasts/episode-03.mp3</guid>
+
+        <itunes:author>Antonija Pek</itunes:author>
+        <itunes:summary>&lt;p&gt;This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.&lt;/p&gt;
+</itunes:summary>
+        <itunes:image href="http://drops.albush.com/RAX%20CLOUD%20OFFICE%20HANGOUT%20FINAL.png" />
+        <itunes:duration>600</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
+    
+    <item>
+        <link>https://example.org/episode-02/</link>
+        <title>Episode 02</title>
+        <pubDate>Tue, 12 Feb 2019 22:11:07 +0200</pubDate>
+        <description><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</description>
+
+        <enclosure url="https://dl.dropboxusercontent.com/s/xl38cguxjg8dssg/episode_2.mp3" length="" type="audio/mpeg" />
+        <guid>https://dl.dropboxusercontent.com/s/xl38cguxjg8dssg/episode_2.mp3</guid>
+
+        <itunes:author>Antonija Pek</itunes:author>
+        <itunes:summary>&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+</itunes:summary>
+        <itunes:image href="http://drops.albush.com/RAX%20CLOUD%20OFFICE%20HANGOUT%20FINAL.png" />
+        <itunes:duration>600</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
+    
+    <item>
+        <link>https://example.org/episode-01/</link>
+        <title>Episode 01</title>
+        <pubDate>Tue, 12 Feb 2019 22:07:54 +0200</pubDate>
+        <description><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</description>
+
+        <enclosure url="https://dl.dropboxusercontent.com/s/e8z9128w22d7ujy/episode_1.mp3" length="" type="audio/mpeg" />
+        <guid>https://dl.dropboxusercontent.com/s/e8z9128w22d7ujy/episode_1.mp3</guid>
+
+        <itunes:author>Antonija Pek</itunes:author>
+        <itunes:summary>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+</itunes:summary>
+        <itunes:image href="http://drops.albush.com/RAX%20CLOUD%20OFFICE%20HANGOUT%20FINAL.png" />
+        <itunes:duration>600</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
     
   </channel>
 </rss>

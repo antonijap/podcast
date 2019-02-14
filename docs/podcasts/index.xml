@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcasts on My New Hugo Site</title>
+    <link>https://example.org/podcasts/</link>
+    <description>Recent content in Podcasts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Feb 2019 13:33:03 +0200</lastBuildDate>
+    
+	<atom:link href="https://example.org/podcasts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building a Creative Business with Blair Enns</title>
+      <link>https://example.org/building-a-creative-business-with-blair-enns/</link>
+      <pubDate>Wed, 13 Feb 2019 13:33:03 +0200</pubDate>
+      
+      <guid>https://example.org/building-a-creative-business-with-blair-enns/</guid>
+      <description>This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.</description>
+    </item>
+    
+    <item>
+      <title>Episode 02</title>
+      <link>https://example.org/episode-02/</link>
+      <pubDate>Tue, 12 Feb 2019 22:11:07 +0200</pubDate>
+      
+      <guid>https://example.org/episode-02/</guid>
+      <description>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>Episode 01</title>
+      <link>https://example.org/episode-01/</link>
+      <pubDate>Tue, 12 Feb 2019 22:07:54 +0200</pubDate>
+      
+      <guid>https://example.org/episode-01/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+  </channel>
+</rss>
