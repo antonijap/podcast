@@ -17,7 +17,7 @@
 
   <link rel="canonical" href="{{ .Permalink }}">
 
-  {{ $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
+  {{ $style := resources.Get "scss/main.scss" | toCSS | minify }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Source+Sans+Pro:400,600" rel="stylesheet">
