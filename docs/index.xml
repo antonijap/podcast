@@ -9,10 +9,10 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>47Revisions</title>
     <atom:link href="https://example.org//index.xml" rel="self" type="application/rss+xml" />
     <link>https://example.org/</link>
-    <description>Recent content in My New Hugo Site on My New Hugo Site</description>
+    <description>Recent content in 47Revisions on 47Revisions</description>
     <lastBuildDate>2019-02-13 13:33:03 &#43;0200 EET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
@@ -32,6 +32,78 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="http://drops.albush.com/RAX%20CLOUD%20OFFICE%20HANGOUT%20FINAL.png" />
+    
+    <item>
+        <link>https://example.org/building-a-creative-business-with-blair-enns/</link>
+        <title>Building a Creative Business with Blair Enns</title>
+        <pubDate>Wed, 13 Feb 2019 13:33:03 +0200</pubDate>
+        <description><p>This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.</p>
+</description>
+
+        <enclosure url="episodes/episode-03.mp3" length="" type="audio/mpeg" />
+        <guid>episodes/episode-03.mp3</guid>
+
+        <itunes:author>Antonija Pek</itunes:author>
+        <itunes:summary>&lt;p&gt;This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.&lt;/p&gt;
+</itunes:summary>
+        <itunes:image href="http://drops.albush.com/RAX%20CLOUD%20OFFICE%20HANGOUT%20FINAL.png" />
+        <itunes:duration>600</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
+    
+    <item>
+        <link>https://example.org/building-a-creative-business-with-blair-enns/</link>
+        <title>Building a Creative Business with Blair Enns</title>
+        <pubDate>Wed, 13 Feb 2019 13:33:03 +0200</pubDate>
+        <description><p>This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.</p>
+</description>
+
+        <enclosure url="episodes/episode-03.mp3" length="" type="audio/mpeg" />
+        <guid>episodes/episode-03.mp3</guid>
+
+        <itunes:author>Antonija Pek</itunes:author>
+        <itunes:summary>&lt;p&gt;This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.&lt;/p&gt;
+</itunes:summary>
+        <itunes:image href="http://drops.albush.com/RAX%20CLOUD%20OFFICE%20HANGOUT%20FINAL.png" />
+        <itunes:duration>600</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
+    
+    <item>
+        <link>https://example.org/building-a-creative-business-with-blair-enns/</link>
+        <title>Building a Creative Business with Blair Enns</title>
+        <pubDate>Wed, 13 Feb 2019 13:33:03 +0200</pubDate>
+        <description><p>This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.</p>
+</description>
+
+        <enclosure url="episodes/episode-03.mp3" length="" type="audio/mpeg" />
+        <guid>episodes/episode-03.mp3</guid>
+
+        <itunes:author>Antonija Pek</itunes:author>
+        <itunes:summary>&lt;p&gt;This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.&lt;/p&gt;
+</itunes:summary>
+        <itunes:image href="http://drops.albush.com/RAX%20CLOUD%20OFFICE%20HANGOUT%20FINAL.png" />
+        <itunes:duration>600</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
+    
+    <item>
+        <link>https://example.org/building-a-creative-business-with-blair-enns/</link>
+        <title>Building a Creative Business with Blair Enns</title>
+        <pubDate>Wed, 13 Feb 2019 13:33:03 +0200</pubDate>
+        <description><p>This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.</p>
+</description>
+
+        <enclosure url="episodes/episode-03.mp3" length="" type="audio/mpeg" />
+        <guid>episodes/episode-03.mp3</guid>
+
+        <itunes:author>Antonija Pek</itunes:author>
+        <itunes:summary>&lt;p&gt;This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.&lt;/p&gt;
+</itunes:summary>
+        <itunes:image href="http://drops.albush.com/RAX%20CLOUD%20OFFICE%20HANGOUT%20FINAL.png" />
+        <itunes:duration>600</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
     
     <item>
         <link>https://example.org/building-a-creative-business-with-blair-enns/</link>

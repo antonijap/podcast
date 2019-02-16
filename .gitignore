@@ -1,3 +1,7 @@
 node_modules
 .DS_Store
 themes/.DS_Store
+.DS_Store
+docs/.DS_Store
+themes/.DS_Store
+themes/podcast/.DS_Store

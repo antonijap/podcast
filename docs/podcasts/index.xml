@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Podcasts on My New Hugo Site</title>
+    <title>Podcasts on 47Revisions</title>
     <link>https://example.org/podcasts/</link>
-    <description>Recent content in Podcasts on My New Hugo Site</description>
+    <description>Recent content in Podcasts on 47Revisions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Feb 2019 13:33:03 +0200</lastBuildDate>
     
 	<atom:link href="https://example.org/podcasts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building a Creative Business with Blair Enns</title>
+      <link>https://example.org/building-a-creative-business-with-blair-enns/</link>
+      <pubDate>Wed, 13 Feb 2019 13:33:03 +0200</pubDate>
+      
+      <guid>https://example.org/building-a-creative-business-with-blair-enns/</guid>
+      <description>This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.</description>
+    </item>
+    
+    <item>
+      <title>Building a Creative Business with Blair Enns</title>
+      <link>https://example.org/building-a-creative-business-with-blair-enns/</link>
+      <pubDate>Wed, 13 Feb 2019 13:33:03 +0200</pubDate>
+      
+      <guid>https://example.org/building-a-creative-business-with-blair-enns/</guid>
+      <description>This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.</description>
+    </item>
+    
+    <item>
+      <title>Building a Creative Business with Blair Enns</title>
+      <link>https://example.org/building-a-creative-business-with-blair-enns/</link>
+      <pubDate>Wed, 13 Feb 2019 13:33:03 +0200</pubDate>
+      
+      <guid>https://example.org/building-a-creative-business-with-blair-enns/</guid>
+      <description>This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.</description>
+    </item>
+    
+    <item>
+      <title>Building a Creative Business with Blair Enns</title>
+      <link>https://example.org/building-a-creative-business-with-blair-enns/</link>
+      <pubDate>Wed, 13 Feb 2019 13:33:03 +0200</pubDate>
+      
+      <guid>https://example.org/building-a-creative-business-with-blair-enns/</guid>
+      <description>This week we are joined by Blair Enns who has spent more than a decade in new business and account management for some of the worlds largest advertising agencies and some of its smallest design firms. He is also passionate about helping out fellow creative entrepreneurs and is an expert on pricing.</description>
+    </item>
     
     <item>
       <title>Building a Creative Business with Blair Enns</title>
