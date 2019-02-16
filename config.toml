@@ -1,6 +1,6 @@
 baseURL = "https://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "47Revisions"
 theme = "podcast"
 publishDir = "docs"
 paginate = 5
@@ -15,3 +15,7 @@ paginate = 5
 
 [permalinks]
   podcasts = "/:title/"
+
+  [params]
+  author = "Antonija Pek"
+  description = "A Product designer based in Helsinki talks about the UX design, coding and everything in-between."

@@ -5,43 +5,52 @@
   <div class="row">
     <!-- This is sidebar for podcast description -->
     <div class="col col-sm-3 left-sidebar">
-      Sidebar
+      <div class="static-content">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/The_Joe_Rogan_Experience_logo.jpg/220px-The_Joe_Rogan_Experience_logo.jpg"
+          alt="Podcast Image">
+        <h1>{{ .Site.Title }}</h1>
+        <p>{{ .Site.Params.Description }}</p>
+        <a href="http://" class="btn btn-primary btn-block">Listen on Apple Podcasts</a>
+        <a href="http://" class="btn btn-primary btn-block">Listen on Spotify</a>
+      </div>
     </div>
 
     <!-- This is wrapper for episodes -->
-    <div class="col col-sm-9 episodes">
-      <h2 class="content-title">Episodes</h2>
-      <!-- Loops through content, paginator enables easy pagination -->
-      {{ range $paginator.Pages }}
-      <div class="episode">
-          <h1>{{ .Title }}</h1>
+    <div class="col col-sm-9">
+      <div class="episodes">
+        <h2 class="bold-small">Episodes</h2>
+        <!-- Loops through content, paginator enables easy pagination -->
+        {{ range $paginator.Pages }}
+        <div class="episode">
+          <h3>{{ .Title }}</h3>
           <div class="meta">
-            <span>Duration {{ .Params.Duration }}</span>
-            <span>Episode {{ .Params.Episode }}</span>
+            <span class="bold-small" style="margin-right: 24px;">Duration {{ .Params.Duration }}</span>
+            <span class="bold-small">Episode {{ .Params.Episode }}</span>
           </div>
           <p>{{ .Content }}</p>
           <audio id="player" controls>
             <source src="{{ .Params.mp3 }}" type="audio/mp3">
             <source src="{{ .Params.ogg }}" type="audio/ogg">
           </audio>
+        </div>
+        {{ end }}
+
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            {{ if $paginator.HasPrev }}
+            <li class="page-item"><a class="page-link" href="{{ $paginator.Prev.URL }}">Previous</a></li>
+            {{ end }}
+
+            {{ range $paginator.Pagers }}
+            <li class="page-item"><a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+            {{ end }}
+
+            {{ if $paginator.HasNext }}
+            <li class="page-item"><a class="page-link" href="{{ $paginator.Next.URL }}">Next</a></li>
+            {{ end }}
+          </ul>
+        </nav>
       </div>
-      {{ end }}
-
-      <nav aria-label="Page navigation example">
-        <ul class="pagination">
-          {{ if $paginator.HasPrev }}
-          <li class="page-item"><a class="page-link" href="{{ $paginator.Prev.URL }}">Previous</a></li>
-          {{ end }}
-
-          {{ range $paginator.Pagers }}
-          <li class="page-item"><a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a></li>
-          {{ end }}
-
-          {{ if $paginator.HasNext }}
-          <li class="page-item"><a class="page-link" href="{{ $paginator.Next.URL }}">Next</a></li>
-          {{ end }}
-        </ul>
-      </nav>
     </div>
   </div>
 </div>

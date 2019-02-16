@@ -1,23 +1,58 @@
 body {
   background: #f8fafd;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
 }
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .left-sidebar {
   background: #fff;
-  height: 100vh;
+  padding: 48px;
+
+  .static-content {
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      line-height: 33px;
+      font-size: 22px;
+    }
+
+    img {
+      margin-bottom: 32px;
+    }
+  }
 }
+
 .episodes {
-  .content-title {
+  width: 80%;
+
+  .bold-small {
     font-weight: bold;
     font-size: 1em;
     text-transform: uppercase;
     color: #79869E;
     margin-bottom: 16px;
   }
+
   padding: 48px 24px;
+
   .episode {
     background: #fff;
     padding: 24px;
     margin-bottom: 16px;
     border-radius: 4px;
+
+    h3 {
+      font-size: 24px;
+    }
   }
 }
