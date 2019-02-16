@@ -1,3 +1,23 @@
-h1 {
-  font-size: 24px;
+body {
+  background: #f8fafd;
+}
+.left-sidebar {
+  background: #fff;
+  height: 100vh;
+}
+.episodes {
+  .content-title {
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #79869E;
+    margin-bottom: 16px;
+  }
+  padding: 48px 24px;
+  .episode {
+    background: #fff;
+    padding: 24px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+  }
 }

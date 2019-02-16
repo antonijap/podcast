@@ -1,1 +1,1 @@
-h1{font-size:24px}
+body{background:#f8fafd}.left-sidebar{background:#fff;height:100vh}.episodes{padding:48px 24px}.episodes .content-title{font-weight:700;font-size:1em;text-transform:uppercase;color:#79869e;margin-bottom:16px}.episodes .episode{background:#fff;padding:24px;margin-bottom:16px;border-radius:4px}

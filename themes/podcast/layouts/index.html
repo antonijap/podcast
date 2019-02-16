@@ -1,38 +1,49 @@
 {{ define "main" }}
 
-<div class="container">
+<div class="container-fluid">
   {{ $paginator := .Paginate (where .Data.Pages "Type" "podcasts") }}
-  {{ range $paginator.Pages }}
   <div class="row">
-    <div class="col col-sm-12">
-      <h1>{{ .Title }}</h1>
-      <div class="meta">
-        <span>Duration {{ .Params.Duration }}</span>
-        <span>Episode {{ .Params.Episode }}</span>
+    <!-- This is sidebar for podcast description -->
+    <div class="col col-sm-3 left-sidebar">
+      Sidebar
+    </div>
+
+    <!-- This is wrapper for episodes -->
+    <div class="col col-sm-9 episodes">
+      <h2 class="content-title">Episodes</h2>
+      <!-- Loops through content, paginator enables easy pagination -->
+      {{ range $paginator.Pages }}
+      <div class="episode">
+          <h1>{{ .Title }}</h1>
+          <div class="meta">
+            <span>Duration {{ .Params.Duration }}</span>
+            <span>Episode {{ .Params.Episode }}</span>
+          </div>
+          <p>{{ .Content }}</p>
+          <audio id="player" controls>
+            <source src="{{ .Params.mp3 }}" type="audio/mp3">
+            <source src="{{ .Params.ogg }}" type="audio/ogg">
+          </audio>
       </div>
-      <p>{{ .Content }}</p>
-      <audio id="player" controls>
-        <source src="{{ .Params.mp3 }}" type="audio/mp3">
-        <source src="{{ .Params.ogg }}" type="audio/ogg">
-      </audio>
+      {{ end }}
+
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          {{ if $paginator.HasPrev }}
+          <li class="page-item"><a class="page-link" href="{{ $paginator.Prev.URL }}">Previous</a></li>
+          {{ end }}
+
+          {{ range $paginator.Pagers }}
+          <li class="page-item"><a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+          {{ end }}
+
+          {{ if $paginator.HasNext }}
+          <li class="page-item"><a class="page-link" href="{{ $paginator.Next.URL }}">Next</a></li>
+          {{ end }}
+        </ul>
+      </nav>
     </div>
   </div>
-  {{ end }}
-
-  <nav aria-label="Page navigation example">
-    <ul class="pagination">
-      {{ if $paginator.HasPrev }}
-      <li class="page-item"><a class="page-link" href="{{ $paginator.Prev.URL }}">Previous</a></li>
-      {{ end }}
-      {{ range $paginator.Pagers }}
-      <li class="page-item"><a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a></li>
-      {{ end }}
-      {{ if $paginator.HasNext }}
-      <li class="page-item"><a class="page-link" href="{{ $paginator.Next.URL }}">Next</a></li>
-      {{ end }}
-
-    </ul>
-  </nav>
 </div>
 
 {{ end }}
