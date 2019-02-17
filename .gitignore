@@ -5,3 +5,4 @@ themes/.DS_Store
 docs/.DS_Store
 themes/.DS_Store
 themes/podcast/.DS_Store
+*.content
