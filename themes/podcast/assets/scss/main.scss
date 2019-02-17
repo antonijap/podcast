@@ -32,7 +32,7 @@ h3 {
 
     .sidebar {
       background: #fff;
-      padding: 1.5rem 3rem;
+      padding: 3rem 3rem;
       height: 31.5rem;
       @media (min-width: 768px) {
         height: 14rem;
@@ -78,7 +78,7 @@ h3 {
           justify-content: center;
           @media (min-width: 768px) {
             display: block;
-            width: 90%;
+            width: 100%
           }
           @media (min-width: 1024px) {
             width: 100%;
@@ -139,6 +139,7 @@ h3 {
 
           p {
             text-align: center;
+            margin-bottom: 2em;
             @media(min-width: 768px) {
               text-align: left;
               margin-bottom: 0;
@@ -178,7 +179,7 @@ h3 {
           .spotify {
             background: #1DB954;
             border: #1DB954;
-            color: black;
+            color: white;
             font-weight: bold;
           }
         }
